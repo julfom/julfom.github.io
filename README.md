@@ -7,7 +7,7 @@ Seeing architecture in every data process, both in virtual and built environment
 
 ## About Me
 
-- 🔭 I’m currently working on [TradingBuddy](https://github.com/julfom/Trading-Buddy)  
+- 🔭 I’m currently working on [TradingBuddy](https://github.com/julfom/Trading-Buddy). Here is the [pitch deck!](https://app.presentations.ai/view/XVpVFn)  
 - 👯 I’m looking to collaborate on [Machine Vision projects like this](https://vimeo.com/21813752)  
 - 👩‍🎨 I’m also a creative professional in [Architecture and Design](https://archinect.com/IuliiaFomina)
 
