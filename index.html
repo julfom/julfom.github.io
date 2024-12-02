@@ -4,68 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iuliia Fomina - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, h1, h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .languages-tools img, .connect img {
+            margin-right: 10px;
+        }
+        .stats img {
+            margin: 10px 0;
+        }
+        .chat-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007acc;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+        .chat-button:hover {
+            background-color: #005f99;
+        }
+        p, ul {
+            margin: 0 0 10px;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 align="center">Hi 👋, I'm Iuliia Fomina</h1>
-        <h3 align="center">Data Scientist. ML Engineer. Architect. Designer.<br>
+        <h1>Greetings, I'm Iuliia Fomina</h1>
+        <h3>Data Scientist. ML Engineer. Architect. Designer.<br>
             Seeing architecture in every data process, both in virtual and built environments.
         </h3>
     </header>
 
-    <section class="profile-views">
-        <p align="left">
-            <img src="https://komarev.com/ghpvc/?username=julfom&label=Profile%20views&color=0e75b6&style=flat" alt="julfom" />
-        </p>
+    <section>
+        <h3>About Me</h3>
+        <ul>
+            <li>🔭 I’m currently working on <a href="https://github.com/julfom/Trading-Buddy" target="_blank">TradingBuddy</a></li>
+            <li>👯 I’m looking to collaborate on <a href="https://vimeo.com/21813752" target="_blank">Machine Vision projects like this</a></li>
+            <li>👩‍🎨 I’m also a creative professional in <a href="https://archinect.com/IuliiaFomina" target="_blank">Architecture and Design</a></li>
+        </ul>
     </section>
 
-    <section class="trophies">
-        <h3 align="left">Achievements:</h3>
-        <p align="left">
+    <section class="achievements">
+        <h3>Achievements</h3>
+        <p>
             <a href="https://github.com/ryo-ma/github-profile-trophy">
                 <img src="https://github-profile-trophy.vercel.app/?username=julfom" alt="julfom" />
             </a>
         </p>
     </section>
 
-    <section class="about">
-        <h3>About Me:</h3>
-        <ul>
-            <li>🔭 I’m currently working on <a href="https://github.com/julfom/Trading-Buddy" target="_blank">TradingBuddy</a></li>
-            <li>👯 I’m looking to collaborate on <a href="https://vimeo.com/21813752" target="_blank">Machine Vision projects like this</a></li>
-        </ul>
-    </section>
-
     <section class="connect">
-        <h3>Connect with me:</h3>
-        <p align="left">
-            <a href="https://linkedin.com/in/iuliia-fomina" target="blank">
-                <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="iuliia-fomina" height="30" width="40" />
+        <h3>Connect with Me</h3>
+        <p>
+            <a href="https://linkedin.com/in/iuliia-fomina" target="_blank">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
             </a>
         </p>
+        <a href="mailto:iulifomi@gmail.com" class="chat-button">Chat with Me</a>
     </section>
 
-    <section class="tools">
-        <h3>Languages and Tools:</h3>
-        <p align="left">
-            <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
+    <section class="languages-tools">
+        <h3>Languages and Tools</h3>
+        <p>
+            <a href="https://www.arduino.cc/" target="_blank">
                 <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
             </a>
-            <!-- Repeat for other tools as provided in your code -->
+            <!-- Repeat for all tools from your code -->
         </p>
     </section>
 
     <section class="stats">
-        <h3>GitHub Stats:</h3>
+        <h3>GitHub Stats</h3>
         <p>
-            <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=julfom&show_icons=true&locale=en&layout=compact" alt="julfom" />
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=julfom&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
         </p>
         <p>
-            <img align="center" src="https://github-readme-stats.vercel.app/api?username=julfom&show_icons=true&locale=en" alt="julfom" />
-        </p>
-        <p>
-            <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=julfom&" alt="julfom" />
+            <img src="https://github-readme-stats.vercel.app/api?username=julfom&show_icons=true&locale=en" alt="GitHub Stats" />
         </p>
     </section>
 </body>
